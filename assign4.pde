@@ -173,12 +173,12 @@ void alienMaker() {
   
   for(int i=0;i <num;i++){
     if(i%col == 0){
-    +=row;
+    row++;
     }
   aList[i] = new Alien(50 + (i%col)*40, 50 + row*50);
   }
-  
 }
+
 
 void drawLife() {
   fill(230, 74, 96);
@@ -468,3 +468,5 @@ void cheatKeys() {
     }
   }
 }
+
+
