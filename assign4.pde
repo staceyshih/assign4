@@ -119,7 +119,7 @@ void draw() {
 
     alienShoot();
     checkAlienDead();/*finish*/
-    checkShipHit();  /*finish this function*/
+   // checkShipHit();  /*finish this function*/
 
     countBulletFrame+=1;
     int countLaserfrmae=frameCount;
@@ -308,7 +308,7 @@ void checkAlienDead() {
 
 
 /*---------Check Laser Hit Ship-------------*/
-void checkShipHit() {
+/*void checkShipHit() {
   for (int i=0; i<lList.length-1; i++) {
     Laser laser = lList[i];
     if (laser!= null && !laser.gone // Check Array isn't empty and laser still exist
@@ -320,7 +320,7 @@ void checkShipHit() {
 
     }
   }
-}
+}*/
 
 /*void checkWinLost(){
 if(alien=null){
